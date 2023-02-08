@@ -10,6 +10,8 @@ app.get("/flip-coin", (req, res) => {
   res.send(coin);
 });
 
+console.log("Hello World!");
+
 app.get("/flip-coins", (req, res) => {
   const times = req.query.times;
   if (times && times > 0) {
