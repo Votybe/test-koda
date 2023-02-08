@@ -1,6 +1,6 @@
 apiVersion: 1
 
-provides:
+providers:
   - name: "Grafana"
     org_id: 1
     folder: "Services"
