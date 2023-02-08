@@ -1,0 +1,7 @@
+apiVersion:
+
+datasource:
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    url: "http://localhost:9090"
